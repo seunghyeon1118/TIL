@@ -25,6 +25,7 @@
 ## CSS
 
 - `<style> </style>` - style 태그 다음에는 css(html 문법)
+
 - id 선택자는 한 번만 사용하고 중복 시에는 class 사용
 - flex 사용 시 부모 요소에 `display:flex;` 입력
   - container 속성
