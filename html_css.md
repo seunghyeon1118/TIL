@@ -21,3 +21,16 @@
 
 - `<nav> </nav>` - 문서의 네비게이션 항목을 정의
 - `<article> </article>` - 본문 내용
+
+## CSS
+
+- `<style> </style>` - style 태그 다음에는 css(html 문법)
+- id 선택자는 한 번만 사용하고 중복 시에는 class 사용
+- flex 사용 시 부모 요소에 `display:flex;` 입력
+  - container 속성
+    - `flex-direction: row;` : 기본값
+    - `flex-direction: column` : 수직방향으로 정렬
+  - item 속성
+    - `flex-basis` - 크기 지정
+    - `flex-grow: 1;` - 여백을 채움
+    - `flex-shrink: 0` - 자신의 크기를 유지
